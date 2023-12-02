@@ -1,0 +1,118 @@
+#╔═══╗╔╗─╔╗╔═══╗╔╗───╔╗───╔═══╗╔═╗─╔╗╔═══╗╔═══╗
+#║╔═╗║║║─║║║╔═╗║║║───║║───║╔══╝║║╚╗║║║╔═╗║║╔══╝
+#║║─╚╝║╚═╝║║║─║║║║───║║───║╚══╗║╔╗╚╝║║║─╚╝║╚══╗
+#║║─╔╗║╔═╗║║╚═╝║║║─╔╗║║─╔╗║╔══╝║║╚╗║║║║╔═╗║╔══╝
+#║╚═╝║║║─║║║╔═╗║║╚═╝║║╚═╝║║╚══╗║║─║║║║╚╩═║║╚══╗
+#╚═══╝╚╝─╚╝╚╝─╚╝╚═══╝╚═══╝╚═══╝╚╝─╚═╝╚═══╝╚═══╝
+#
+# Author: Starry_Killer
+# Version: 1.0.0-RELEASED
+
+database:
+  host: "localhost"
+  port: 3306
+  database: "challenge"
+  username: "root"
+  password: "root"
+challenge:
+  selector:
+    title: "Play Bed Wars" #Insert the title of the page
+    item:
+      slot: 34
+      material: IRON_SWORD
+      name: "&aChallenge"
+      lore:
+        - "&7Looking for a new way to play"
+        - "&7Bed Wars? Enhance your gameplay"
+        - "&7with exciting challenges!"
+        - ""
+        - "&eClick to view challenges!"
+  menu:
+    size: 54
+    title: "Bed Wars Challenges" #The name of this page
+    item:
+      color: "&a"
+      category: "&bChallenge Rules:"
+      intro:
+        - "&cYou can disable Challenges through any"
+        - "&cNPC in the Bed Wars lobby using the "
+        - "&credstone on the Challenges page. "
+      status:
+        activated: "&eClick to Activate!"
+        deactivated: "&cClick to Disable!"
+      none:
+        name: "NONE"
+      renegade:
+        name: "Renegade"
+        rules:
+          - "&61. &7Upgrades and traps are disable"
+          - "&62. &7You cannot pick up diamonds"
+      warmonger:
+        name: "Warmonger"
+        rules:
+          - "&61. &7You cannot purchase nor use any"
+          - "&7utilities to aid you in battle"
+      selfish:
+        name: "Selfish"
+        rules:
+          - "&61. &7You are too selfish to drop any"
+          - "&7items to other players"
+          - "&62. &7You team chest and Ender Chest are"
+          - "&7locked"
+      locked:
+        name: "&7&o????"
+        lore:
+          - ""
+          - "&cChallenge Locked!"
+      redstone:
+        active-color: "&a"
+        deactivate-color: "&c"
+        state:
+          active: "&eClick to Disable!"
+          deactivate: "&cNo Active Challenge."
+        name: "Disable Active Challenge"
+        lore:
+          - ""
+          - "&6Currently Active: {challenge}"
+          - ""
+          - "{state}"
+      information:
+        name: "&aChallenge Information"
+        lore:
+          - "&7Challenges are a unique way to"
+          - "&7increase the difficulty of the game"
+          - "&7for you and your team. To unlock"
+          - "&7additional challenges,you must first"
+          - "&7complete currently unlocked"
+          - "&7challenges."
+          - "&7Good Luck!"
+          - ""
+          - "&6Active Challenge: {challenge}"
+      close:
+        name: "&cClose"
+  messages:
+    menu:
+      activated: "&aActivated Challenge: &6{challenge}"
+      deactivated: "&cDeactivated Challenge: &6{challenge}"
+      arena-open: "&cYou can only open the menu in the lobby!"
+      not-unlocked: "&cYou have not unlocked this challenge yet!"
+    arena-top:
+    - "&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    - "                                   &c&lCHALLENGE ACTIVE!"
+    - "                                      &6&l{challenge}"
+    - "&bChallenge Rules:"
+    arena-bottom:
+    - "&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    challenges:
+      renegade:
+        open_upgrade: "&cYou cannot use upgrades and traps during the &6Renegade &cchallenge"
+      warmonger:
+        buy_item: "&cYou cannot purchase this item during this challenge"
+      selfish:
+        open_chests: "&cThis chest is locked during the &6Selfish &cchallenge"
+        drop_item: "&cYou cannot drop anything during the &6Selfish &cchallenge"
+
+
+
+
+

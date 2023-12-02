@@ -1,0 +1,8 @@
+main: cn.starry.challenge.Challenge
+name: BedWars1058-Challenges
+authors: [ Starry_Killer ]
+version: 1.0.1-RELEASED
+description: BedWars1058 Challenges Addon By Starry_Killer
+commands:
+  challenge:
+    description: Challenges Menu Command
