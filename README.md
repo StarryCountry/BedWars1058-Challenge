@@ -1,5 +1,6 @@
-#什么,你问我这是什么
-这只是一个滞后的开源项目
+#BedWars1058-Challenge Free Edition
 
-BedWars1058-Challenge Free Edition
-Created By Starry_Killer
+Created & Code By Starry_Killer
+Subsequent support By StarryCountry Development
+
+This project is no longer supported,So we will release the source code.
